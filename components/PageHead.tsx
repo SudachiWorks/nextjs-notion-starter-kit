@@ -29,6 +29,19 @@ export const PageHead: React.FC<
         content='width=device-width, initial-scale=1, shrink-to-fit=no'
       />
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-BY3HK8VSF1"></script>
+      <script dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-BY3HK8VSF1');
+        `
+      }} />
+      <script async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9991439058559193"
+              crossOrigin="anonymous"></script>
+
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
 

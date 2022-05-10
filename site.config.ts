@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '思いつきを書くところ',
-  domain: 'random.segawa.website',
+  name: 'document.segawa.website',
+  domain: 'document.segawa.website',
   author: 'Shinichi Segawa',
 
   // open graph metadata (optional)
-  description: '思いついたこととかをとりあえず書いていくところ',
+  description: 'ドキュメントとか',
 
   // social usernames (optional)
   twitter: 'segawa_sh',
